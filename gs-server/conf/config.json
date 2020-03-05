@@ -1,0 +1,24 @@
+{
+
+    "addr": "0.0.0.0:31683",
+    "log": {
+        "appenders": {
+            "console": {
+                "type": "console"
+            }
+        },
+        "categories": {
+            "default": {
+                "appenders": [ "console" ], 
+                "level": "debug"
+            }
+        }
+    },
+    "roomConf": {
+        "enable": true,
+        "svcName": "svc-200773-0-0",
+        "podName": "deploy-200773-0-0-855ccc667b-jkxmj",
+        "remoteHost": "directory10.matchvs.com",
+        "remotePort": 9982
+    }
+}
